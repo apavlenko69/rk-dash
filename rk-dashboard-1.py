@@ -65,9 +65,9 @@ plot1 = figure(plot_width=700,
                border_fill_color="whitesmoke",
                )
 
-plot1.yaxis.axis_label = 'Average speed (km/h)'
+plot1.yaxis.axis_label = default_y_axis
 title_main = 'Training activities historical data: '
-plot1.title.text = title_main + 'Average speed (km/h)'
+plot1.title.text = title_main + default_y_axis
 
 plot1.circle(x='x_ax', y='y_ax', source=src_nm,
              size=5,
